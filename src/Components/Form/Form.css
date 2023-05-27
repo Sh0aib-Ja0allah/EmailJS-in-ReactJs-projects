@@ -1,0 +1,82 @@
+:root{
+    --mainColor: #f9004d;
+    --blackColor: #101010;
+    --blackColor2: #191919;
+    --grayColor: hsla(0,0%,100%,.6);
+    --skyColor: #4db5ff;
+    --whiteColor: white;
+    --blackColor3: #272727;
+    --inputFieldColor: rgba(77,181,255,.4);
+    /* var(--..ColorName..) */
+}
+/* component styling ... */
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+}
+
+.Title{
+    margin: 35px 0;
+    width: 100%;
+    color: var(--whiteColor);
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Title:hover{
+    color: var(--mainColor);
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+
+/* Start your form styling ... */
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formChild{
+    width: 320px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--inputFieldColor);
+    background-color: transparent;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: var(--whiteColor);
+}
+
+input{
+    height: 70px;
+}
+
+textarea{
+    padding: 20px;
+    height: 170px;
+}
+
+.submit{
+    background-color: var(--mainColor);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: var(--whiteColor);
+    font-size: 16px;
+    width: fit-content;
+    letter-spacing: 1px;
+}
+
+.submit:hover{
+    transform: scale(1.3, 1.3);
+}

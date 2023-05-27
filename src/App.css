@@ -1,0 +1,15 @@
+:root{
+  --mainColor: #f9004d;
+  --blackColor: #101010;
+  --blackColor2: #191919;
+  --grayColor: hsla(0,0%,100%,.6);
+  --skyColor: #4db5ff;
+  --whiteColor: white;
+  --blackColor3: #272727;
+  --inputFieldColor: rgba(77,181,255,.4);
+  /* var(--..ColorName..) */
+}
+
+.App{
+  background-color: var(--blackColor);
+}
