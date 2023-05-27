@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EmailJS-in-ReactJs-projects/static/css/main.f2f52d47.css",
+    "main.js": "/EmailJS-in-ReactJs-projects/static/js/main.bd9f7268.js",
+    "static/js/787.815f0a52.chunk.js": "/EmailJS-in-ReactJs-projects/static/js/787.815f0a52.chunk.js",
+    "index.html": "/EmailJS-in-ReactJs-projects/index.html",
+    "main.f2f52d47.css.map": "/EmailJS-in-ReactJs-projects/static/css/main.f2f52d47.css.map",
+    "main.bd9f7268.js.map": "/EmailJS-in-ReactJs-projects/static/js/main.bd9f7268.js.map",
+    "787.815f0a52.chunk.js.map": "/EmailJS-in-ReactJs-projects/static/js/787.815f0a52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2f52d47.css",
+    "static/js/main.bd9f7268.js"
+  ]
+}
